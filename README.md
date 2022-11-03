@@ -37,29 +37,45 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 ### PROCEDURE:
 
+1. Open the roboanalyzer software.
+2. Select the robot and its degrees of freedom.
+3. Change the values of X and Y wherever necessary.
+4. Simulate the model for inverse kinematics.
+5. Plot the graph between the joints.
+6. Update the DH parameters of the link configuration and end effector configuration.
 
 
 
 
 
 
+### SIMULATION:
+ 
+#### RPR ROBOT:
+ 
+ ![Kn Exp3 RPR](https://user-images.githubusercontent.com/75235386/199659263-410f8ee6-e8c4-4ab1-854d-1892ef6fc484.png)
+ ![Kn Exp3 RPR1](https://user-images.githubusercontent.com/75235386/199659292-b6428767-4b37-484e-8f7a-b4532c701b57.png)
 
-### SIMULATION 
+#### RRP ROBOT:
+ 
+ ![Kn Exp3 RRP](https://user-images.githubusercontent.com/75235386/199659368-0fbd2e2b-d4f8-4213-ad30-2bd6187a4a0b.png)
+![Kn Exp3 RRP1](https://user-images.githubusercontent.com/75235386/199659394-6ee5c2b3-3bd3-4552-8fcd-de73d542e18f.png)
+![Kn Exp3 RRP2](https://user-images.githubusercontent.com/75235386/199659408-825a75ca-c90a-4539-a12e-1dd6f6f48c42.png)
+
  
  
+ ### PLOT: 
  
+#### RPR ROBOT:
  
+ ![Kn Exp3 Plot RPR](https://user-images.githubusercontent.com/75235386/199659813-8f467ea1-2220-413c-89a0-8741de405588.png)
+![Kn Exp3 Plot RPR1](https://user-images.githubusercontent.com/75235386/199659826-fc3ccd55-b54c-4a75-826f-01cd0a87d7bf.png)
+
+#### RRP ROBOT:
  
- 
- 
- ### PLOT 
- 
- 
- 
- 
- 
- 
- 
+ ![Kn Exp3 Plot RRP](https://user-images.githubusercontent.com/75235386/199659909-eebedc5a-9c64-43f2-827b-48980c2c837a.png)
+ ![Kn Exp3 Plot RRP1](https://user-images.githubusercontent.com/75235386/199659932-44af1b11-e6f6-44df-8e72-e0f30fcf0075.png)
+
  
  
  
@@ -83,3 +99,5 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 
 
 ### RESULTS :  
+Thus,the inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer is analysed and the graph of joint angle for a given input end effector position is plotted.
+
